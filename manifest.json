@@ -1,0 +1,24 @@
+{
+    "name": "Nikki bot ",
+    "description": "An extension to replace every picture in the page with Nicki Minjaj",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts":[
+        {
+            "matches": ["<all_urls>"],
+            "js" : ["Content.js"]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html" 
+    },
+    "default_icon": {
+            "128": "/images1/128x128.png"
+             },
+    "icons": {
+           "128": "/images1/128x128.png"
+    }
+}
+
+
+
